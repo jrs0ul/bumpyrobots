@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+    <Levels>
+        <Level>
+            <Locked>0</Locked>
+            <Name>Warm-up</Name>
+            <Path>data/levels/level00.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>First Encounter</Name>
+            <Path>data/levels/level05.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Double Trouble</Name>
+            <Path>data/levels/level08.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Triple Hit</Name>
+            <Path>data/levels/level051.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Spikey's Show</Name>
+            <Path>data/levels/level1.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Blow it Up!</Name>
+            <Path>data/levels/level3_5.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Crystalized</Name>
+            <Path>data/levels/level2.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Jump!</Name>
+            <Path>data/levels/level3.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Assault</Name>
+            <Path>data/levels/level4.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Ancient Head</Name>
+            <Path>data/levels/level5.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Bone Crusher</Name>
+            <Path>data/levels/level6.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Heavy Rain</Name>
+            <Path>data/levels/level8.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Deathwish</Name>
+            <Path>data/levels/level7.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Labyrinth</Name>
+            <Path>data/levels/level11.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Bombs Away</Name>
+            <Path>data/levels/bombs.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Tunel</Name>
+            <Path>data/levels/tunel.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Station</Name>
+            <Path>data/levels/station.map</Path>
+        </Level>
+        <Level>
+            <Locked>1</Locked>
+            <Name>Jump'n'Stuff</Name>
+            <Path>data/levels/jumpnstuff.map</Path>
+        </Level>
+        
+    </Levels>

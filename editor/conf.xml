@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Settings>
+    <width>640</width>
+    <height>480</height>
+    <mapIN>level5.map</mapIN>
+    <mapOUT>../data/levels/naujas.map</mapOUT>
+</Settings>

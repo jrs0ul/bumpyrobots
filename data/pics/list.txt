@@ -1,0 +1,28 @@
+data/pics/chars.tga
+16 16 1
+data/pics/buttons.tga
+64 64 1
+data/pics/tiles.tga
+32 32 0
+data/pics/particle.tga
+16 16 1
+data/pics/menu.tga
+60 256 1
+data/pics/titlebg.tga
+256 512 1
+data/pics/objects.tga
+32 32 1
+data/pics/pit.tga
+512 512 1
+data/pics/biopit.tga
+512 512 1
+data/pics/mouth.tga
+512 512 1
+data/pics/guistuff.tga
+64 64 1
+data/pics/logo.tga
+219 256 1
+data/pics/rod.tga
+16 16 1
+data/pics/welldone.tga
+256 512 1

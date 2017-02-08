@@ -1,0 +1,9 @@
+click.ogg
+fall.ogg
+boom.ogg
+jump.ogg
+powerup.ogg
+wrong.ogg
+drop_bomb.ogg
+fall2.ogg
+gui_click.ogg

@@ -1,0 +1,14 @@
+pics/chars.tga
+16 16 0
+pics/ship.tga
+32 32 1
+pics/buttons.tga
+32 32 0
+pics/tiles.tga
+32 32 0
+pics/crystal.tga
+32 32 1
+pics/pointer.tga
+16 16 1
+pics/objects.tga
+32 32 1

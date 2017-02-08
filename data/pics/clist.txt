@@ -1,0 +1,20 @@
+chars.tga
+16 16 0
+ship.tga
+32 32 1
+buttons.tga
+48 48 1
+tiles.tga
+32 32 0
+crystal.tga
+32 32 1
+blob.tga
+32 32 1
+drone.tga
+32 32 1
+particle.tga
+16 16 1
+menu.tga
+48 170 1
+titlebg.tga
+256 512 1

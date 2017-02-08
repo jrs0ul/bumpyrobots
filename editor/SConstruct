@@ -1,0 +1,46 @@
+import os
+import sys
+
+OBJ_DIR = os.path.join(os.getcwd(), 'obj/');
+env = Environment(ENV=os.environ,
+                  CCFLAGS=['-O3','-Wall'],
+                  OBJPREFIX = OBJ_DIR)
+
+#Windblows
+if sys.platform == 'win32':
+    Tool('mingw')(env)
+    env.Append(LIBS = ['mingw32','SDLmain', 'SDL', 'OpenGL32', 'GLU32',
+                       'openal32', 'vorbisfile', 'ogg'])
+else: #Mac OS X
+    if sys.platform == 'darwin':
+        env['FRAMEWORKS'] = ['Cocoa', 'SDL', 'OPENGL', 'OpenAL','vorbis', 'Ogg']
+        env.Append(LIBS = ['SDLmain', 'iconv', 'pthread'])
+    else: #Linux
+        env.Append(LIBS = ['SDL','GL', 'GLU', 'openal', 'vorbisfile',
+                           'ogg', 'pthread'])
+
+
+env.Program(target = "bumped", 
+            source = ["src/bumped.cpp",
+                      "../src/Xml.cpp",
+                      "../src/gui/Text.cpp",
+                      "../src/LevelMap.cpp",
+                      "../src/TextureLoader.cpp",
+                      "../src/Image.cpp",
+                      "../src/Vectors.cpp",
+                      "../src/gui/Button.cpp",
+                      "../src/Utils.cpp",
+                      "../src/Robot.cpp",
+                      "../src/RobotArmy.cpp",
+                      "src/Extensions.cpp",
+                      "../src/Particles2D.cpp",
+                      "../src/Matrix.cpp",
+                      "../src/FindPath.cpp",
+                      "../src/gui/MenuStruct.cpp",
+                      "../src/gui/SelectMenu.cpp",
+                      "../src/externals.cpp",
+                      "../src/VertexObject.cpp"
+
+                      ]
+            )
+
