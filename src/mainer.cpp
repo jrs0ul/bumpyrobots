@@ -246,6 +246,7 @@ THREADFUNC getScore(void * args){
     curl_easy_setopt(cu, CURLOPT_FOLLOWLOCATION, 1);
     curl_easy_setopt(cu, CURLOPT_WRITEFUNCTION, writer);
     curl_easy_setopt(cu, CURLOPT_WRITEDATA, &buffer);
+    curl_easy_setopt(cu, CURLOPT_FAILONERROR, true);
     
     result = curl_easy_perform(cu);
     
